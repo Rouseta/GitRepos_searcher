@@ -1,7 +1,7 @@
 function Error() {
 
     return (
-        <p className="error">Please, write a name</p>
+        <li key="errorKey" className="error">Please, write a name</li>
     )
 }
 export default Error;

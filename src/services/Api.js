@@ -4,12 +4,17 @@ const getData = (searchRepo) => {
         .then((response) => response.json())
         .then((data) => {
             const cleanData = data.map((eachRepo => {
-                return eachRepo.name
+                return {
+                    name: eachRepo.name,
+                    id: eachRepo.id
+                }
 
             }))
 
 
+
             return {
+
                 id: data[0].owner.id,
                 repo: cleanData,
                 img: data[0].owner.avatar_url,

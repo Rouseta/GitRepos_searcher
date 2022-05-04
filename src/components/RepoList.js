@@ -1,10 +1,17 @@
 import RepoCard from "./RepoCard"
 function RepoList({ repos }) {
 
+
     return (
         <>
-            <h1 className="hola">Hola</h1>
-            <div key={repos.id} className="result-list"><RepoCard repos={repos} /></div>
+
+            <div className="userDiv">
+
+                <h2 className="userDiv-name">{repos.userName}</h2>
+                <img src={repos.img} alt={repos.userName} className="UserDiv-avatar" />
+                <h2 className="userDiv-repos">My Repos</h2>
+
+                <RepoCard repos={repos} /></div>
         </>
 
     )

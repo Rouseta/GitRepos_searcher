@@ -13,6 +13,7 @@ function App() {
   const [searchedRepos, setSearchedRepos] = useState("")
   const [validSearch, setValidSearch] = useState(false)
 
+
   //Handle Use Effect God, help me!
 
 
@@ -43,7 +44,8 @@ function App() {
   const validation = () => {
 
     if (searchedRepos === "") {
-      setValidSearch(false);
+      setValidSearch(false)
+      setRepos({});
 
 
 
