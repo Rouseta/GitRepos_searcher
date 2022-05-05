@@ -1,0 +1,23 @@
+button{
+    width:6em;
+    margin-left: 1em;
+    border-radius: 40px;
+    background-color: #6E83B7;
+    border: #FFB0AA;
+    color:white;
+    font-family: 'Poppins', sans-serif;
+    }
+    button:hover{
+        background-color: white ;
+        color:#FFB0AA;
+    }
+
+.label-input{
+    padding-right: 0.5em;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 0.5em;
+}
+.wrapped{
+    display: inline-block;
+}
+

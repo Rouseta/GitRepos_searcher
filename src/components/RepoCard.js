@@ -8,7 +8,7 @@ function RepoCard({ repos }) {
         if (userRepos !== undefined) {
 
             return userRepos.map((oneRepo, index) => {
-                console.log(oneRepo.id)
+
 
 
                 return (

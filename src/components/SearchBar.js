@@ -1,5 +1,8 @@
-// import Error from './Error';
+import '../styles/SearchBar.css'
 function SearchBar(props) {
+    const reset = () => {
+        return props.handleReset()
+    }
     const handleValidation = () => {
         return props.validation()
     }
@@ -14,7 +17,8 @@ function SearchBar(props) {
 
 
     return <>
-        <label htmlFor="repo" className="repo-input">Search repo by name</label>
+        <label htmlFor="repo" className="label-input">Search repo by name</label>
+
         <input
             type="text"
             className="repo-input-box"
@@ -24,8 +28,11 @@ function SearchBar(props) {
             onChange={handleSearch}
 
         />
-        {<button onClick={handleValidation}>Search</button>}
-        <div></div>
+        <div className='wrapped'>
+            <button onClick={handleValidation}>Search</button>
+            <button onClick={reset}>Reset</button>
+        </div>
+
     </>
 
 }

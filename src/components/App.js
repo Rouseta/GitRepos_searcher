@@ -22,7 +22,7 @@ function App() {
     if (validSearch) {
       getData(searchedRepos).then((reposData) => {
         setRepos(reposData)
-        console.log(reposData);
+
 
       });
     }
@@ -39,18 +39,27 @@ function App() {
 
 
 
-
+    //To check if the field is empty 
   }
   const validation = () => {
 
     if (searchedRepos === "") {
       setValidSearch(false)
       setRepos({});
-
-
-
     } else { setValidSearch(true) }
   }
+
+  //Reset all fields
+
+  const handleReset = () => {
+    setRepos({});
+    setValidSearch(false);
+    setSearchedRepos("");
+
+
+
+  }
+
 
 
 
@@ -58,7 +67,7 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <SearchBar repos={repos} searchedRepos={searchedRepos} handleInput={handleInput} validation={validation} />
+      <SearchBar repos={repos} searchedRepos={searchedRepos} handleInput={handleInput} validation={validation} handleReset={handleReset} />
       <RepoList repos={repos} />
 
     </div>

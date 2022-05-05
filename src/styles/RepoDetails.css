@@ -1,0 +1,15 @@
+.repoList{
+
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+   
+}
+.repoList a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color:  #6E83B7;
+}
+.repoList a:hover{
+    color: #FFB0AA;
+}
