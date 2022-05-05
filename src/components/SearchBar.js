@@ -17,20 +17,23 @@ function SearchBar(props) {
 
 
     return <>
-        <label htmlFor="repo" className="label-input">Search repo by name</label>
+        <div className="mainWrapper">
+            <label htmlFor="repo" className="label-input">Search repo by name</label>
 
-        <input
-            type="text"
-            className="repo-input-box"
-            name="repo"
-            id="repo"
-            value={props.searchedRepos}
-            onChange={handleSearch}
+            <input
+                type="text"
+                className="repo-input-box"
+                name="repo"
+                id="repo"
+                value={props.searchedRepos}
+                onChange={handleSearch}
 
-        />
-        <div className='wrapped'>
-            <button onClick={handleValidation}>Search</button>
-            <button onClick={reset}>Reset</button>
+            />
+
+            <div className='wrapped'>
+                <button onClick={handleValidation}>Search</button>
+                <button onClick={reset}>Reset</button>
+            </div>
         </div>
 
     </>

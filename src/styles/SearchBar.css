@@ -20,4 +20,19 @@ button{
 .wrapped{
     display: inline-block;
 }
+@media all and (max-width:360px){
+    .mainWrapper{
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        
+    }
+    .wrapped{
+        margin-top: 1em;
+    }
+    .repo-input-box{
+        width:200px;
+        margin-left:1em;
+    }
+}
 
