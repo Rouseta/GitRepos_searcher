@@ -20,7 +20,7 @@ border-radius: 150px;
    font-family: 'Poppins', sans-serif;
    text-decoration:underline;
 }
-@media all and (max-width:360px){
+@media all and (max-width:560px){
     .userDiv{
         display: block;
         align-items: center;

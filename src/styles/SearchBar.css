@@ -20,7 +20,7 @@ button{
 .wrapped{
     display: inline-block;
 }
-@media all and (max-width:360px){
+@media all and (max-width:560px){
     .mainWrapper{
         display: flex;
         flex-direction: column;

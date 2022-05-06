@@ -6,7 +6,7 @@ For the App developement I used HTML, CSS, and React. As IDE I have used Visual 
 
 ## What does the App do?
 
-This is a easy app to find GutHub´s repositories searching by user name. The App has input field, and a "Search" button. You just need to type a name in the input field and click on the "Search"button, esay peasy!! The app returns the name, picture and a list of the user´s repositories and you can click on the repos links and you will be redirected to the selected repo in GitHub. The App has also a "Reset" button to clean the data and to start a new search.
+This is a easy app to find GitHub´s repositories searching by user name. The App has input field, and a "Search" button. You just need to type a name in the input field and click on the "Search" button, easy peasy!! The app returns the name, picture and a list of the user´s repositories and you can click on the repos links and you will be redirected to the selected repo in GitHub. The App has also a "Reset" button to clean the data and to start a new search. (I assume that every github user has, at least, one repository).
 
 ## Future improvements
 
