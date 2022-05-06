@@ -10,7 +10,7 @@ This is a easy app to find GitHub´s repositories searching by user name. The Ap
 
 ## Future improvements
 
-I would like to include new functionality to filter by repository name and also an option to mark the repos you like as favorites.
+I would like to include new functionality to filter by repository name and also an option to mark the repos you like as favorites. Also I would love to refcator the code :)
 
 ## Feedback about the task
 
