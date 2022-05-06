@@ -1,4 +1,3 @@
-import '../styles/App.css';
 import Header from './Header';
 import SearchBar from './SearchBar';
 import { useState, useEffect } from 'react';
